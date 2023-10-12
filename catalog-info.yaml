@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-name
+  description: another test repo!!
+  # Example for optional annotations
+  tags: 
+      - tag1
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard 1
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  owner: ellie@example.com
+  lifecycle: experimental
